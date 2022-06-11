@@ -3,15 +3,15 @@ randomNumber1=randomNumber1*6+1;
 randomNumber1=Math.floor(randomNumber1);
 
 var randomdiceimage="dice"+randomNumber1+".png";
-var randomdiceimgsource="images/"+randomdiceimage;
+
 
 var image1=document.querySelectorAll("img")[0];
-image1.setAttribute("src",randomdiceimgsource);
+image1.setAttribute("src",randomdiceimage);
 
 var randomNumber2=Math.floor(Math.random()*6)+1;
 
 
-var randomdiceimage2="images/dice"+randomNumber2+".png";
+var randomdiceimage2="dice"+randomNumber2+".png";
 
 
 var image2=document.querySelectorAll("img")[1].setAttribute("src",randomdiceimage2);
